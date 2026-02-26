@@ -146,22 +146,8 @@ const destroyStudent = (id) => {
                 </td>
 
                 <td class="px-6 py-4">
-                  <div class="flex flex-wrap items-center gap-2">
-                    <Link
-                      
-                      class="inline-flex items-center justify-center rounded-xl border border-slate-300 bg-white px-3 py-2 text-xs font-semibold text-slate-700 shadow-sm transition hover:bg-slate-50"
-                    >
-                      Edit
-                    </Link>
-
-                    <button
-                      type="button"
-                        
-                      class="inline-flex items-center justify-center rounded-xl border border-red-200 bg-red-50 px-3 py-2 text-xs font-semibold text-red-700 shadow-sm transition hover:bg-red-100"
-                    >
-                      Delete
-                    </button>
-                  </div>
+          
+                    <!-- Your edit and delete buttons -->
                 </td>
               </tr>
 

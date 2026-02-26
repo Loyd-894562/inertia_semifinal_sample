@@ -1,12 +1,13 @@
 <script setup>
 import { useForm, Link } from '@inertiajs/vue3'
 
+
 const form = useForm({
   student_no: '',
   first_name: '',
   last_name: '',
   email: '',
-  birthdate: '',
+  // birthdate: '',
 })
 
 const submit = () => {
@@ -110,7 +111,7 @@ const submit = () => {
             </p>
           </div>
 
-          <!-- Birthdate -->
+          <!-- Birthdate
           <div>
             <label for="birthdate" class="block text-sm font-medium text-slate-700">
               Birthdate
@@ -124,7 +125,7 @@ const submit = () => {
             <p v-if="form.errors.birthdate" class="mt-2 text-sm text-red-600">
               {{ form.errors.birthdate }}
             </p>
-          </div>
+          </div> -->
 
           <!-- Actions -->
           <div class="flex flex-col gap-3 sm:flex-row sm:items-center">

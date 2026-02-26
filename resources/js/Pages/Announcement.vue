@@ -10,4 +10,9 @@
 
 <script setup>
     import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
+    import { useHead } from '@vueuse/head'
+
+    useHead({
+        title: 'Announcement',
+    });
 </script>
